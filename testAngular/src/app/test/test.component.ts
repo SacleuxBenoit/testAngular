@@ -9,6 +9,7 @@ import { Component, OnInit } from '@angular/core';
   styles: []
 })
 export class TestComponent implements OnInit {
+public friend="Alexis";
   constructor() { }
 
   ngOnInit() {
