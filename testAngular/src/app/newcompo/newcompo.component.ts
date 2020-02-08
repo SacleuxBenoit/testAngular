@@ -10,6 +10,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NewcompoComponent implements OnInit {
 
+  public name = "Benoît"
   constructor() { }
 
   ngOnInit() {
