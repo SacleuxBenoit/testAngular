@@ -5,7 +5,9 @@ import { Component, OnInit } from '@angular/core';
   template: `
   <h1 class="test-class">Bonjour à tous</h1>
   `,
-  styles: []
+  styles: [`.test-class{
+    color:crimson;
+  }`]
 })
 export class NewcompoComponent implements OnInit {
 
