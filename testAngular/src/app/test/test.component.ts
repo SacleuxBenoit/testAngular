@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   <div *ngSwitchCase="'Alexis'">Je suis Alexis</div>
   <div *ngSwitchCase="'Justine'">Je suis Alexis</div>
   <div *ngSwitchCase="'Pierre'">Je suis Alexis</div>
+  <div *ngSwitchCaseDefault>Nous ne sommes pas amis</div>
+
   </div>
   `,
   styles: []
