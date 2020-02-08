@@ -2,8 +2,8 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-testngfor',
-  templateUrl: './testngfor.component.html',
-  styleUrls: ['./testngfor.component.css']
+  template: '',
+  styles: ['']
 })
 export class TestngforComponent implements OnInit {
 
