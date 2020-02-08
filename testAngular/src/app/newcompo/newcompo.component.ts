@@ -5,7 +5,12 @@ import { Component, OnInit } from '@angular/core';
   template: `
   <h1>Bonjour à toi {{name}}</h1>
   <h2>{{name.toUpperCase()}}</h2>
-  <input [id]="id" type="text" value="Bonjour"/>
+   <input 
+   [Disabled]="isDisabled"
+   [id]="id"
+   type="text"
+    value="Bonjour"
+    />
   `,
   style: []
 })
