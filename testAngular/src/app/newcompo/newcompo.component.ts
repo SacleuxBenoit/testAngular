@@ -9,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
   styles: []
 })
 export class NewcompoComponent implements OnInit {
-
+public Bienvenue="";
   constructor() { }
 
   ngOnInit() {
