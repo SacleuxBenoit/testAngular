@@ -14,5 +14,8 @@ export class NewcompoComponent implements OnInit {
 
   ngOnInit() {
   }
+  onClick(){
+    console.log("this is a test");
+  }
 
 }
