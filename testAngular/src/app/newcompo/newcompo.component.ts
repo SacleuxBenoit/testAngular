@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-newcompo',
   template: `
   <h1>Bonjour à tous</h1>
-  <input type="text"/> <button>Envoyer</button>
+  <input #myTxt type="text"/> <button (click)=logText(myTxt.value)>Envoyer</button>
 `,
   styles: []
 })
@@ -14,9 +14,8 @@ public Bienvenue="";
 
   ngOnInit() {
   }
-  onClick(event){
-    console.log(event);
-    this.Bienvenue="this is a test";
+  logText(value){
+    console.log(value);
   }
 
 }
