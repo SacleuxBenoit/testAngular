@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { NewcompoComponent } from './newcompo/newcompo.component';
 import { ImportclassComponent } from './importclass/importclass.component';
 import { TestComponent } from './test/test.component';
+import { TestngforComponent } from './testngfor/testngfor.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NewcompoComponent,
     ImportclassComponent,
-    TestComponent
+    TestComponent,
+    TestngforComponent
   ],
   imports: [
     BrowserModule,
