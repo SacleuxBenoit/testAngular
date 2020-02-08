@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-newcompo',
   template: `
   <h1>Bonjour à tous</h1>
-  <button (click)="onClick()">touch me</button> {{Bienvenue}}`,
+  <button (click)="onClick($event)">touch me</button> {{Bienvenue}}`,
   styles: []
 })
 export class NewcompoComponent implements OnInit {
@@ -13,8 +13,8 @@ public Bienvenue="";
 
   ngOnInit() {
   }
-  onClick(){
-    console.log("this is a test");
+  onClick(event){
+    console.log(event);
     this.Bienvenue="this is a test";
   }
 
