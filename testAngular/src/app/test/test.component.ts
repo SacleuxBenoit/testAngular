@@ -4,6 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-test',
   template: `
   <div [ngSwitch]="friend>
+  <div *ngSwitchCase="'Alexis'">Je suis Alexis</div>
   </div>
   `,
   styles: []
