@@ -10,8 +10,7 @@ import { Component, OnInit } from '@angular/core';
   }`]
 })
 export class NewcompoComponent implements OnInit {
-public redClass ="test-class";
-public hasError = false;
+public colorClass="cyan"
   constructor() { }
 
   ngOnInit() {
