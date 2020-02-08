@@ -5,6 +5,8 @@ import { Component, OnInit } from '@angular/core';
   template: `
   <div [ngSwitch]="friend>
   <div *ngSwitchCase="'Alexis'">Je suis Alexis</div>
+  <div *ngSwitchCase="'Justine'">Je suis Alexis</div>
+  <div *ngSwitchCase="'Pierre'">Je suis Alexis</div>
   </div>
   `,
   styles: []
