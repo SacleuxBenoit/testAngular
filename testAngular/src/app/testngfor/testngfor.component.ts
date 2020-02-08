@@ -10,7 +10,7 @@ import { Component, OnInit } from '@angular/core';
   styles: ['']
 })
 export class TestngforComponent implements OnInit {
-
+public friends=["Justine","Pierre","Paul","Sophie"];
   constructor() { }
 
   ngOnInit() {
