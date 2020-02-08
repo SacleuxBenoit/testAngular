@@ -12,11 +12,12 @@ import { Component, OnInit } from '@angular/core';
     value="Bonjour"
     />
   `,
-  style: []
+  //style: []
 })
 export class NewcompoComponent implements OnInit {
   public id= "test";
-  public name = "Benoît"
+  public name = "Benoît";
+  public isDisabled = true;
   constructor() { }
 
   ngOnInit() {
