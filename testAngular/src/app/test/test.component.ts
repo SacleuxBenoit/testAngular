@@ -7,14 +7,14 @@ import { Component, OnInit } from '@angular/core';
   <div *ngSwitchCase="'Alexis'">Je suis Alexis</div>
   <div *ngSwitchCase="'Justine'">Je suis Justine</div>
   <div *ngSwitchCase="'Pierre'">Je suis Pierre</div>
-  <div *ngSwitchCaseDefault>Nous ne sommes pas amis</div>
+  <div *ngSwitchDefault>Nous ne sommes pas amis</div>
 
   </div>
   `,
   styles: []
 })
 export class TestComponent implements OnInit {
-public friend="Pierre";
+public friend="paul";
   constructor() { }
 
   ngOnInit() {
