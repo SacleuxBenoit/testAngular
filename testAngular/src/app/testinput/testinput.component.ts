@@ -2,11 +2,13 @@ import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-testinput',
-  template: '<h1>test</h1>',
+  template: `
+  <p>{{Mon amie Justine a ' + friendAge + ' ans'}}</p>
+  `,
   styles: []
 })
 export class TestinputComponent implements OnInit {
-@Input('parentData') public friendAge;
+  @Input('parentData') public friendAge;
   constructor() { }
 
   ngOnInit() {
