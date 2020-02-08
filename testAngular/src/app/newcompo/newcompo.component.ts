@@ -4,7 +4,8 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-newcompo',
   template: `
   <h1>Bonjour à tous</h1>
-  <button (click)="onClick($event)">touch me</button> {{Bienvenue}}`,
+  <input type="text"/> <button>Envoyer</button>
+`,
   styles: []
 })
 export class NewcompoComponent implements OnInit {
