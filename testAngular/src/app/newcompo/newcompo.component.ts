@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   <h1>Bonjour à toi {{name}}</h1>
   <h2>{{name.toUpperCase()}}</h2>
    <input 
-   [Disabled]="isDisabled"
+   [disabled]="isDisabled"
    [id]="id"
    type="text"
     value="Bonjour"
