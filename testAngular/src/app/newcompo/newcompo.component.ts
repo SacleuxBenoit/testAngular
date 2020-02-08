@@ -4,6 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-newcompo',
   template: `
   <h1>Bonjour à tous</h1>
+  <button (click)="onClick()">touch me</button>
   `,
   styles: []
 })
