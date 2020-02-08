@@ -5,12 +5,12 @@ import { Component, OnInit } from '@angular/core';
   template: `
   <h1>Bonjour à toi {{name}}</h1>
   <h2>{{name.toUpperCase()}}</h2>
-  <input type="text" value="Bonjour"/>
+  <input [id]="id" type="text" value="Bonjour"/>
   `,
   style: []
 })
 export class NewcompoComponent implements OnInit {
-
+  public id= "test";
   public name = "Benoît"
   constructor() { }
 
