@@ -2,7 +2,12 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: '.app-importclass',
-  template: '',
+  template: `
+    <ul>
+      <li>{{identity}}</li>
+      <li>{{number}}</li>
+    </ul>
+  `,
   styles: ['']
 })
 export class ImportclassComponent implements OnInit {
