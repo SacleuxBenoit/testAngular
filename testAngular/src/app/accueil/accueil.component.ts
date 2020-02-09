@@ -3,9 +3,9 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-accueil',
   template: `
-    <p>
-      accueil works!
-    </p>
+    <h3>
+      Je suis la page d'accueil
+    </h3>
   `,
   styles: []
 })
