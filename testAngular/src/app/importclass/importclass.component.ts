@@ -13,6 +13,7 @@ import { Component, OnInit } from '@angular/core';
 export class ImportclassComponent implements OnInit {
 public identity = "Alex";
 public pi = "3.14";
+public stats = "0.34";
   constructor() { }
 
   ngOnInit() {
