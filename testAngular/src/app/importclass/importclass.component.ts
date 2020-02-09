@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: '.app-importclass',
   template: `
     <ul>
-      <li>{{identity}}</li>
+      <li>{{identity | lowercase}}</li>
       <li>{{number}}</li>
     </ul>
   `,
