@@ -19,6 +19,7 @@ public stats = "0.34";
   constructor(private _friendsService: FriendsService) { }
 
   ngOnInit() {
+    this.friends = this._friendsService.getFriends();
   }
 
 }
