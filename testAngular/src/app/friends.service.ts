@@ -4,14 +4,10 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class FriendsService {
-
+private _url:string = "/assets/data/friends.json"
   constructor() { }
 
   getFriends(){
-    return[
-      {name :"Justine", age:25, sexe:"Femme"},
-      {name :"Alex", age:27, sexe:"Homme"},
-      {name :"Pierre", age:31, sexe:"Homme"},
-    ]
-  }
+    return
+}
 }
