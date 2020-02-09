@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   template: `
     <ul>
       <li>{{identity | lowercase}}</li>
-      <li>{{pi}}</li>
+      <li>{{pi | number: "3.1-5"}}</li>
     </ul>
   `,
   styles: ['']
