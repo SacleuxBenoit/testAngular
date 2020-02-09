@@ -10,6 +10,7 @@ import { TestngforComponent } from './testngfor/testngfor.component';
 import { FriendsService } from './friends.service';
 import { HttpClientModule} from '@angular/common/http';
 import { PageNotfoundComponent } from './page-notfound/page-notfound.component';
+import { AccueilComponent } from './accueil/accueil.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,6 +19,7 @@ import { PageNotfoundComponent } from './page-notfound/page-notfound.component';
     TestComponent,
     TestngforComponent,
     PageNotfoundComponent,
+    AccueilComponent,
   ],
   imports: [
     BrowserModule,
