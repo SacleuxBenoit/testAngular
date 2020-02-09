@@ -6,7 +6,7 @@ import { FriendsService } from '../friends.service';
   template: `
   <h2>Listes des amis</h2>
     <ul *ngFor="let friend of friends">
-    <li>{{friend.name}} - {{friend.age}}</li>
+    <li>Prénom: {{friend.name}} - {{friend.age}} ans. tu es un(e) {{friend.sexe}}</li>
     </ul>
   `,
   styles: ['']
