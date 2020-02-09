@@ -5,8 +5,8 @@ import { FriendsService } from '../friends.service';
   selector: '.app-importclass',
   template: `
   <h2>Listes des amis</h2>
-    <ul *ngFor="let friend of firends">
-    <li>{{friend.name}} - {{firend.age}}</li>
+    <ul *ngFor="let friend of friends">
+    <li>{{friend.name}} - {{friend.age}}</li>
     </ul>
   `,
   styles: ['']
