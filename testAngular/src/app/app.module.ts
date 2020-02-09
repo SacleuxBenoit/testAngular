@@ -8,7 +8,7 @@ import { ImportclassComponent } from './importclass/importclass.component';
 import { TestComponent } from './test/test.component';
 import { TestngforComponent } from './testngfor/testngfor.component';
 import { FriendsService } from './friends.service';
-
+import { HttpClientModule} from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +19,8 @@ import { FriendsService } from './friends.service';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [FriendsService],
   bootstrap: [AppComponent]
