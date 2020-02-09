@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FriendsService } from '../friends.service';
 
 @Component({
   selector: '.app-importclass',
@@ -15,7 +16,7 @@ public friends =[];
 public identity = "Alex";
 public pi = "3.14";
 public stats = "0.34";
-  constructor() { }
+  constructor(private _friendsService: FriendsService) { }
 
   ngOnInit() {
   }
