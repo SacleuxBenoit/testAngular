@@ -9,6 +9,7 @@ import { TestComponent } from './test/test.component';
 import { TestngforComponent } from './testngfor/testngfor.component';
 import { FriendsService } from './friends.service';
 import { HttpClientModule} from '@angular/common/http';
+import { PageNotfoundComponent } from './page-notfound/page-notfound.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,6 +17,7 @@ import { HttpClientModule} from '@angular/common/http';
     ImportclassComponent,
     TestComponent,
     TestngforComponent,
+    PageNotfoundComponent,
   ],
   imports: [
     BrowserModule,
