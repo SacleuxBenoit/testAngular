@@ -7,6 +7,7 @@ import { NewcompoComponent } from './newcompo/newcompo.component';
 import { ImportclassComponent } from './importclass/importclass.component';
 import { TestComponent } from './test/test.component';
 import { TestngforComponent } from './testngfor/testngfor.component';
+import { FriendsService } from './friends.service';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,7 @@ import { TestngforComponent } from './testngfor/testngfor.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [FriendsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
