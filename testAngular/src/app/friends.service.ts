@@ -10,5 +10,7 @@ export class FriendsService {
 private _url:string = "/assets/data/friends.json"
   constructor(private http:HttpClient) { }
 
-
+  getFriends(): Observable < Ifriends[]>{
+    return this.http.get<Ifriends[]>(this._url);
+}
 }
