@@ -4,15 +4,13 @@ import { Component, OnInit } from '@angular/core';
   selector: '.app-importclass',
   template: `
     <ul>
-      <li>{{identity | lowercase}}</li>
-      <li>{{pi | number: "3.1-5"}}</li>
-      <li>{{stats | percent}}</li>
-
+    <li></li>
     </ul>
   `,
   styles: ['']
 })
 export class ImportclassComponent implements OnInit {
+public friends =[];
 public identity = "Alex";
 public pi = "3.14";
 public stats = "0.34";
