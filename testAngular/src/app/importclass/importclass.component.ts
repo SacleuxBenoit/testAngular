@@ -2,8 +2,8 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: '.app-importclass',
-  templateUrl: './importclass.component.html',
-  styleUrls: ['./importclass.component.css']
+  template: '',
+  styles: ['']
 })
 export class ImportclassComponent implements OnInit {
 
