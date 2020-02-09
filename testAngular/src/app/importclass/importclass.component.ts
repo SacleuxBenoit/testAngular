@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
     <ul>
       <li>{{identity | lowercase}}</li>
       <li>{{pi | number: "3.1-5"}}</li>
+      <li>{{stats | percent}}</li>
+
     </ul>
   `,
   styles: ['']
