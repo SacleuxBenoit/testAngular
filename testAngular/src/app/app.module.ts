@@ -7,7 +7,6 @@ import { NewcompoComponent } from './newcompo/newcompo.component';
 import { ImportclassComponent } from './importclass/importclass.component';
 import { TestComponent } from './test/test.component';
 import { TestngforComponent } from './testngfor/testngfor.component';
-import { TestinputComponent } from './testinput/testinput.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +15,6 @@ import { TestinputComponent } from './testinput/testinput.component';
     ImportclassComponent,
     TestComponent,
     TestngforComponent,
-    TestinputComponent
   ],
   imports: [
     BrowserModule,
