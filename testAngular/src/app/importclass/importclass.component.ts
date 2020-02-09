@@ -3,8 +3,9 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: '.app-importclass',
   template: `
-    <ul>
-    <li></li>
+  <h2>Listes des amis</h2>
+    <ul *ngFor="let friend of firends">
+    <li>{{friend.name}} - {{firend.age}}</li>
     </ul>
   `,
   styles: ['']
